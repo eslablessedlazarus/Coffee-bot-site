@@ -1,0 +1,173 @@
+
+
+
+        /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #FFFFFF; /* Crisp White Background */
+    color: #0F172A; /* Deep Navy for Text */
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #FFFFFF;
+    border-bottom: 2px solid #E2E8F0; /* Lighter Blue/Gray border */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1E40AF; /* Primary Navy Blue */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #475569; /* Slightly softer blue/gray for links */
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1E40AF; /* Navy on hover */
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    /* Updated background gradient overlay (slight blue tint) */
+    background: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), 
+                url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #1E40AF; /* Strong Navy */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background: #1C3FAA; /* Slightly darker */
+    transform: translateY(-2px);
+}
+
+/* Info Section */
+.info {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #F8FAFC; /* Extremely light blue/gray background for contrast */
+}
+
+.info h2 {
+    font-size: 2rem;
+    color: #1E40AF; /* Navy Accent */
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: #1F2937;
+    font-size: 1.1rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    padding: 40px;
+    text-align: center;
+    background: #0F172A; /* Deepest Navy/Black */
+    color: #F1F5F9; /* Off-white for footer text */
+    font-size: 0.9rem;
+}
+
+/* --- AI Prompt Styling --- */
+.cta-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Tighter gap */
+}
+
+.ai-prompt {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.15); /* More visible backdrop filter */
+    padding: 8px 20px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.ai-prompt p {
+    font-size: 0.9rem !important;
+    margin-bottom: 0 !important;
+    color: #E2E8F0; /* Soft Blue-Gray text */
+}
+
+.ai-prompt a {
+    color: #fff; /* Crisp white link */
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.3s;
+}
+
+.ai-prompt a:hover {
+    color: #BFDBFE; /* Light sky blue on hover */
+}
+
+.sparkle-icon {
+    font-size: 1.1rem;
+    color: #BFDBFE; /* Light sky blue sparkle */
+}
